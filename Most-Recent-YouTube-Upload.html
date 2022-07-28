@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>ChiuChillGaming - test</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css" integrity="sha384-zIaWifL2YFF1qaDiAo0JFgsmasocJ/rqu7LKYH8CoBEXqGbb9eO+Xi3s6fQhgFWM" crossorigin="anonymous">
+</head>
+<body>
+<section class="header">0
+    <nav>
+        <a href="index.html"><img src="images/local.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="About-page.html">ABOUT</a></li>
+                <li><a href="Most-Recent-YouTube-Upload.html">Most Recent YouTube Upload</a>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+<div class="text-box">
+    <h1>Most Recent YouTube Upload</h1>
+</div>   
+    
+</section>
+<!----- Course ----->
+
+    
+<!-------Most Recent YouTube Upload------>
+<section class="video">
+    <h1>Most Recent YouTube Upload</h1>
+    <div class="row">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/WbodV0lLzYo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/0Q-pb2ET48Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/-XdnKRckEDg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+</section>
+<!-------contact------>
+<section class="contact">
+    <div classs="icon">
+        <a href="https://www.instagram.com/chiuchillgaming/">
+            <ion-icon name="logo-instagram"></ion-icon>
+        </a>
+        <a href="https://youtube.com/ChiuChillgaming">
+            <ion-icon name="logo-youtube"></ion-icon>
+        </a>
+        <a href="https://twitter.com/399gamingYT">
+            <ion-icon name="logo-twitter"></ion-icon>
+        </a>
+        <a href="https://www.facebook.com/Chiu.Chunyin.3/"> 
+             <ion-icon name="logo-facebook"></ion-icon>
+        </a>
+        <a href=“https://discord.com/invite/RySK6hW”>
+            <ion-icon name="logo-discord"></ion-icon>
+        </a>
+        <a href=“https://www.twitch.tv/399gamingyoutube”>
+            <ion-icon name="logo-twitch"></ion-icon>
+        </a>
+    </div>
+ 
+    <p>Made with <ion-icon name="heart-outline"></ion-icon>by Kelvin</p>
+    
+</section>
+<!------JavaScript For Toggle Menu------>
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";    
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+    
+</script>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
